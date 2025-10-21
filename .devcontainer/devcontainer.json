@@ -1,0 +1,9 @@
+{
+    "name": "Course Notes",
+    "image":"mcr.microsoft.com/devcontainers/python:latest",
+    "customizations": {
+        "settings":{},
+        "extensions":["ms-python.python"]
+    },
+    "postCreateCommand": "pip install -r requirements.txt"
+}
